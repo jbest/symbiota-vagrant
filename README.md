@@ -1,11 +1,14 @@
 # symbiota-vagrant
 A [Vagrant](https://www.vagrantup.com) project for [Symbiota](http://symbiota.org/docs/) testing and evaluation.
 
+## Use
+
 Install [Vagrant](https://www.vagrantup.com)
 
-Clone this repository: `git clone https://github.com/jbest/symbiota-vagrant.git`
-
-## Use
+Clone this repository:
+```
+git clone https://github.com/jbest/symbiota-vagrant.git
+```
 
 Run Vagrant:
 ```
