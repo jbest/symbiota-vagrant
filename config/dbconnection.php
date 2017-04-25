@@ -1,6 +1,5 @@
-// Configuration for test Symbiota instance in Vagrant
-
 <?php
+// Configuration for test Symbiota instance in Vagrant
 class MySQLiConnectionFactory {
     static $SERVERS = array(
       array(

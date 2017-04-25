@@ -1,6 +1,5 @@
-// Configuration for test Symbiota instance in Vagrant
-
 <?php
+// Configuration for test Symbiota instance in Vagrant
 $DEFAULT_LANG = 'en';			//Default language
 $DEFAULT_PROJ_ID = 1;
 $DEFAULTCATID = 1;
