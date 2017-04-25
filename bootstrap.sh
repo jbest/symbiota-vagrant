@@ -72,6 +72,9 @@ sudo cp /var/www/html/${PROJECTFOLDER}/leftmenu_template.php /var/www/html/${PRO
 sudo cp /var/www/html/${PROJECTFOLDER}/header_template.php /var/www/html/${PROJECTFOLDER}/header.php
 sudo cp /var/www/html/${PROJECTFOLDER}/footer_template.php /var/www/html/${PROJECTFOLDER}/footer.php
 sudo cp /var/www/html/${PROJECTFOLDER}/robots_template.txt /var/www/html/${PROJECTFOLDER}/robots.txt
+sudo cp /var/www/html/${PROJECTFOLDER}/css/main_template.css /var/www/html/${PROJECTFOLDER}/css/main.css
+sudo cp /var/www/html/${PROJECTFOLDER}/css/speciesprofile_template.css /var/www/html/${PROJECTFOLDER}/css/speciesprofile.css
+sudo cp /var/www/html/${PROJECTFOLDER}/css/jquery-ui_template.css /var/www/html/${PROJECTFOLDER}/css/jquery-ui.css
 
 # copy and rename database template file
 #sudo cp /var/www/html/${PROJECTFOLDER}/config/dbconnection_template.php /var/www/html/${PROJECTFOLDER}/config/dbconnection.php
