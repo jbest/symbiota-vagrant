@@ -4,7 +4,6 @@
 #PASSWORD='12345678'
 #PROJECTFOLDER='symbiota'
 
-#echo $PROJECTFOLDER
 # Create Symbiota database
 mysql -uroot -p12345678 -e "create database symbiota"
 
@@ -20,5 +19,3 @@ mysql -uroot -p12345678 -e "GRANT SELECT ON symbiota.* TO 'symbiota-r'@'localhos
 # create schema
 mysql -uroot -p12345678 symbiota < /var/www/html/symbiota/config/schema-1.0/utf8/db_schema-1.0.sql
 mysql -uroot -p12345678 symbiota < /var/www/html/symbiota/config/schema-1.0/utf8/db_schema_patch-1.1.sql
-
-# Move configuration files
