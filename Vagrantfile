@@ -46,7 +46,7 @@ Vagrant.configure("2") do |config|
   #
   config.vm.provider "virtualbox" do |vb|
     # Display the VirtualBox GUI when booting the machine
-    # vb.gui = true
+    vb.gui = true
   # Another bug: https://github.com/chef/bento/issues/682
     vb.customize ["modifyvm", :id, "--cableconnected1", "on"]
   #
@@ -73,4 +73,5 @@ Vagrant.configure("2") do |config|
   # SHELL
   # Define the bootstrap file: A (shell) script that runs after first setup of your box (= provisioning)
   config.vm.provision :shell, path: "bootstrap.sh"
+  config.vm.provision :shell, path: "symbiota.sh"
 end
