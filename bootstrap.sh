@@ -9,7 +9,9 @@ sudo mkdir "/var/www/html/${PROJECTFOLDER}"
 
 # update / upgrade
 sudo apt-get update
-sudo apt-get -y upgrade
+#sudo apt-get -y upgrade
+# Using fix from https://github.com/chef/bento/issues/661#issuecomment-248136601
+DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade
 
 # install apache 2.5 and php 5.5
 sudo apt-get install -y apache2
