@@ -3,6 +3,8 @@ A [Vagrant](https://www.vagrantup.com) project for [Symbiota](http://symbiota.or
 
 ## Use
 
+Install [VirtualBox](https://www.virtualbox.org)
+
 Install [Vagrant](https://www.vagrantup.com)
 
 Clone this repository:
