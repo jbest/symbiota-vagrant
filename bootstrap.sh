@@ -2,6 +2,9 @@
 
 # Copied extensively from https://github.com/panique/vagrant-lamp-bootstrap
 
+# Import parameters that are shared across scripts
+#source params.sh
+
 # Use single quotes instead of double quotes to make it work with special-character passwords
 PASSWORD='12345678'
 PROJECTFOLDER='symbiota'
